@@ -38,9 +38,8 @@ https://eshwar2206.github.io/Schedulink/
 
 ## 🧩 Folder Structure
 
-📁 project-root/
+📁 project
 
-│
 ├── index.html # Main HTML file
 
 ├── styles.css # Styling (light & dark modes)
