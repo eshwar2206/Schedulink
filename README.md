@@ -19,7 +19,7 @@
 
 ## 🖼️ Demo Preview
 
-![Schedulink Screenshot]() (https://eshwar2206.github.io/Schedulink/)
+![Schedulink Screenshot](Preveiw.png) (https://eshwar2206.github.io/Schedulink/)
 
 ---
 
