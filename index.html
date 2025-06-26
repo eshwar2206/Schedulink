@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="task.jpg">
+    <title>Schedulink</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Schedulink</h1>
+        <button id="toggle-theme" class="add-task-btn" style="margin-bottom:10px;">Toggle Dark Mode</button>
+
+        <div class="task-form">
+            <input type="text" id="task-input" placeholder="Enter a new task..." class="task-input">
+            <button id="add-task-btn" class="add-task-btn">Add Task</button>
+        </div>
+        <ul id="task-list" class="task-list"></ul>
+      <center><button id="clear-all-btn" class="clear-all-btn">Clear All</button>
+        
+      </center>
+      <!-- Below your clear all button -->
+<div id="progress-container">
+  <div id="progress-bar"></div>
+  <p id="progress-text">0% completed</p>
+</div>
+<select id="priority" class="task-input">
+  <option>Low</option>
+  <option>Medium</option>
+  <option>High</option>
+</select>
+
+
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
