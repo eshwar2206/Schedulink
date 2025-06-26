@@ -39,10 +39,14 @@ https://eshwar2206.github.io/Schedulink/
 ## 🧩 Folder Structure
 
 📁 project-root/
+
 │
 ├── index.html # Main HTML file
+
 ├── styles.css # Styling (light & dark modes)
+
 ├── script.js # Core functionality
+
 └── task.jpg # App icon / favicon
 
  **Clone the Repository**
