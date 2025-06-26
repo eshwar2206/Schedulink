@@ -1,56 +1,48 @@
-# Task Manager Web App 📝✅
+# 📅 Schedulink
 
-## Overview
+**Schedulink** is a minimal, responsive, and user-friendly task management web application built with HTML, CSS, and JavaScript. It allows users to create, organize, and track tasks with deadlines, priorities, and a real-time visual progress indicator. The app supports dark mode and persists user data using local storage.
 
-Welcome to the Task Manager Web App repository! This project provides a responsive web-based task manager that allows users to create, manage, prioritize, and track tasks efficiently.
+---
 
-<h1 align="center">
-  👉<a href="https://sm-taskmanager.netlify.app" target="_blank" rel="noopener noreferrer">Live Demo</a>
-</h1>
+## 🚀 Features
 
-## Features
+- 📝 **Add Tasks** with a due date and priority level (Low, Medium, High)
+- ✅ **Mark Tasks as Completed** to visually track progress
+- ❌ **Delete Tasks** individually or **Clear All** with one click
+- 📅 **Due Date Picker** using a `datetime-local` input
+- 🌗 **Toggle Light/Dark Mode** for better accessibility
+- 📊 **Live Progress Indicator** shows percentage of tasks completed
+- 💾 **Local Storage Integration** to save tasks across sessions
+- 🎨 Smooth UI with transitions and entry animations
 
-- **Task Creation:** Easily add new tasks with a user-friendly input field.
-- **Task Prioritization:** Prioritize your tasks to stay organized.
-- **Completion Tracking:** Mark tasks as completed with a single click.
-- **Task Removal:** Remove completed or unwanted tasks from the list.
-- **Responsive Design:** Enjoy a seamless experience on various devices and screen sizes.
+---
 
-## Technologies Used
+## 🖼️ Demo Preview
 
-- HTML
-- CSS
-- JavaScript
+![Schedulink Screenshot]() (https://eshwar2206.github.io/Schedulink/)
 
-## Getting Started
+---
 
-### Prerequisites
+## 🛠️ Tech Stack
 
-- GitHub
-- A modern web browser
+| Frontend        | Functionality (JS)     | Styling            |
+|-----------------|------------------------|--------------------|
+| HTML5           | Vanilla JavaScript     | CSS3               |
+| Responsive Layout | DOM Manipulation     | Dark Mode Support  |
+| `datetime-local` | Local Storage API      | Animations & Transitions |
 
-### Installation
+---
 
-1. Clone the repository to your local machine:
+## 🧩 Folder Structure
 
+📁 project-root/
+│
+├── index.html # Main HTML file
+├── styles.css # Styling (light & dark modes)
+├── script.js # Core functionality
+└── task.jpg # App icon / favicon
+
+ **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/task-manager-web-app.git
-Open the project folder in your code editor.
-
-Launch the index.html file in your web browser to start using the Task Manager.
-
-Usage
-To add a new task, type the task description and press Enter or click the "Add Task" button.
-Prioritize tasks by moving the most important ones to the top.
-Mark tasks as completed by clicking the "Completed" button.
-Remove tasks by clicking the "Delete" button.
-Contributions
-Contributions are welcome! If you'd like to improve this project or fix any issues, please fork the repository and submit a pull request.
-
-License
-This project is licensed under the MIT License.
-
-Contact
-If you have any questions or suggestions, feel free to contact us.
-
-Happy task managing! 🚀
+   gh repo clone eshwar2206/Schedulink
+   cd schedulink
