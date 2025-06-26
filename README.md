@@ -1,6 +1,7 @@
 # 📅 Schedulink
 
 **Schedulink** is a minimal, responsive, and user-friendly task management web application built with HTML, CSS, and JavaScript. It allows users to create, organize, and track tasks with deadlines, priorities, and a real-time visual progress indicator. The app supports dark mode and persists user data using local storage.
+
 **Demo Link:** 
 https://eshwar2206.github.io/Schedulink/
 
